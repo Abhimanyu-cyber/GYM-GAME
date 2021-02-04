@@ -154,7 +154,7 @@ function junkfoodspawn(){
 }
 
 function lemonjuicespawn(){
-    if(frameCount%680===0){
+    if(frameCount%1180===0){
         lemonjuiceobject=createSprite(1648,349,1,1)
         lemonjuiceobject.scale=0.3;
         lemonjuiceobject.velocityX=-17;
@@ -164,7 +164,7 @@ function lemonjuicespawn(){
 }
 
 function protienshakespawn(){
-    if(frameCount%1090===0){
+    if(frameCount%2090===0){
         protienshakeobject=createSprite(1648,339,1,1)
         protienshakeobject.scale=0.2;
         protienshakeobject.velocityX=-17;
