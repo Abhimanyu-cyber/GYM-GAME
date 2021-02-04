@@ -94,7 +94,7 @@ function draw(){
     if(frameCount%24===0){
         time=time+1;
     }
-
+    console.log(frameCount);
     drawSprites();
     stroke(0)
     fill(0)
